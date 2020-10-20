@@ -1,0 +1,36 @@
+{
+  "name": "v-animated",
+  "description": "Vue.js Animate Plugin",
+  "version": "0.0.4",
+  "author": "sifu",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "main": "dist/index.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitsifu/v-animated.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gitsifu/v-animated/issues"
+  },
+  "keywords": [
+    "vue",
+    "animated",
+    "vue animated",
+    "v-animated"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {
+    "wowjs": "^1.1.3"
+  }
+}
