@@ -8,6 +8,7 @@ Vue.js动画指令插件
 ```bash
 npm install animate.css v-animated --save
 ```
+**注意：animate.css版本请使用4.x**
 
 ```javascript
 import Vue from 'vue'
