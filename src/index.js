@@ -1,7 +1,5 @@
 import {WOW} from 'wowjs'
 
-const animateErrorMessage = 'boxClass参数有误！'
-
 const wowOption = {
     boxClass: 'wow',
     animateClass: 'animate__animated',
@@ -20,18 +18,12 @@ const getBoxClass = (option) =>{
 
 export default {
     install(Vue, option) {
-
         initWOW(option)
-
         Vue.directive('animated', {
             bind(el, binding) {
                 const {arg, value} = binding
                 el.classList.add(getBoxClass(option),value)
             },
-
-            unbind(el) {
-
-            }
         })
     }
 }
